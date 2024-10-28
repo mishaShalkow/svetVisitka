@@ -126,7 +126,7 @@ body {
 }
 
 .header_menu {
-  margin: 0px 0px 0px 300px;
+  margin: 0px 0px 0px 200px;
 }
 
 @media (max-width: 991.98px) {
@@ -195,6 +195,13 @@ body {
 .main {
   flex: 1 1 auto;
   background-color: white;
+  padding-bottom: 150px;
+}
+
+@media (max-width: 1057px) {
+  .main {
+    padding-bottom: 50px;
+  }
 }
 
 .main_container {
